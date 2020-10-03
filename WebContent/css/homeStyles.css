@@ -1,0 +1,206 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.login {
+	text-align: center;
+}
+
+#title {
+  background-color: #1abc9c;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-pol-image {
+  width: 40%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 40%;
+}
+
+.title-doc-image {
+  width: 40%;
+  transform: rotate(315deg);
+  position: absolute;
+  right: 5%;
+}
+
+.title-team-image {
+  width: 40%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
+  top: 50%;
+}
+
+/* Features Section */
+
+.cop {
+  padding-top: 100px;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 0.5% 4.5% 2%;
+}
+
+.feature-image {
+	width: 50%;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+.feature-para {
+	color: #fff;
+}
+
+.icon {
+  color: #1abc9c;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.central-content {
+	padding-top: 1%;
+	padding-bottom: 1%;
+} 
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.skill-1{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-2{
+  width: 30%;
+  float: right;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
+.medical-img{
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+
+  #title {
+    text-align: center;
+  }
+
+  /* .title-image {
+    position: static;
+    transform: rotate(0);
+  } */
+  .title-pol-image {
+  	position: static;
+    transform: rotate(0);
+  }
+
+  .title-doc-image {
+  	position: static;
+    transform: rotate(0);
+  }
+
+  .title-team-image {
+    position: static;
+    transform: rotate(0);
+  }
+  
+  .skill-1{
+  	width: 90%;
+  	clear: left;
+  	margin-right: 30px;
+  	display: block;
+}
+  .skill-2{
+  	width: 90%;
+  	clear: right;
+  	border-radius: 100%;
+  	display: block;
+  	margin-left: 30px;
+}
+}

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link href = "css/registerStyles.css" rel = "stylesheet">
+
+
+</head>
+<body>
+	<div class = "container">
+		<form id= "contact" name="myForm" action ="Register" method = "post">
+		
+			<h2>User Details</h2>
+			
+			<fieldset>
+				<input placeholder = "Name" type = "text" name= "fullName"  autocomplete= "off" required>
+			</fieldset>
+			
+			<fieldset>
+				<input placeholder = "Email" type = "email" name= "userMail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete = "off" required>
+			</fieldset>
+			
+			<fieldset>
+				<input placeholder = "Password" type = "password" name= "pword"  autocomplete= "off" required>
+			</fieldset>
+			<fieldset>
+				<input placeholder = "Phone Number" type = "number" name= "mobNo" pattern="[6-9][0-9]{9}" autocomplete= "off" required>
+			</fieldset>
+			<p>Department</p>
+			<fieldset>
+				<select id = "custom-select" name = "dept" required>
+					<option value="Sergeant">Traffic-Sergeant</option>
+					<option value="Central">Traffic Central Team</option>
+					<option value="Medical">Medical Rapid Force Team</option>
+				</select>
+			</fieldset>
+			<fieldset>
+		      <button name="submit" type="submit" id="contact-submit">Submit</button>
+		    </fieldset>
+			
+		</form>
+	</div>
+
+</body>
+</html>
